@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Shop Cart Test automation regression suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="5" name="Home page(failed)" verbose="3">
+    <classes>
+      <class name="Tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setupHomePage"/>
+          <include name="verifyTitle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tests.HomePageTest -->
+    </classes>
+  </test> <!-- Home page(failed) -->
+</suite> <!-- Failed suite [Shop Cart Test automation regression suite] -->
